@@ -1,0 +1,67 @@
+html {
+  background-color: #0af;
+}
+
+body {
+  margin: 0;
+  padding: 3em 0;
+  padding-top: 5em;
+  font-family: sans-serif;
+  font-size: 100%;
+  color: #fff;
+  background-color: #0af;
+  animation: load1 0.5s linear 0.5s 1 forwards;
+}
+
+@keyframes load1 {
+    0% {background-color: #0af;}
+  100% {background-color: #000;}
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat';
+}
+
+p {
+  font-family: 'Nunito';
+}
+
+span {
+  font-family: 'Rubik';
+}
+
+.clear {
+  clear: both;
+}
+
+.bar {
+  background-color: #0af;
+  width: 8em;
+  height: 0.25em;
+  margin-top: 0.25em;
+}
+
+li .bar {
+  width: 2.5em;
+  margin: auto;
+  margin-top: 0.2em;
+}
+
+li a {
+  font-family: 'Nunito';
+}

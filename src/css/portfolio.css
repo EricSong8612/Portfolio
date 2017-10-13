@@ -1,0 +1,378 @@
+#navigation {
+  position: fixed;
+  z-index: 1000;
+  top: -100vh;
+  right: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+#navigation #closeIcon {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  font-size: 2em;
+}
+
+#navigation ul {
+  margin-top: 30vh;
+  text-align: center;
+}
+
+#navigation ul li {
+  margin: auto;
+  margin-bottom: 1em;
+  font-size: 3vw;
+  width: 25vw;
+  padding-bottom: 0.25em;
+  border-bottom: 0.0675em solid #0af;
+}
+
+@keyframes open {
+    0% {top: -100vh; right: -100vw;}
+  100% {top: 0; right: 0;}
+}
+
+@keyframes close {
+    0% {top: 0; right: 0;}
+  100% {top: -100vh; right: -100vw;}
+}
+
+span a {
+  color: #0af;
+}
+
+h1 span {
+  color: #0af;
+}
+
+.brand {
+  color: #0af;
+  border: 0.125em solid #0af;
+  border-radius: 50%;
+  padding: 0.45em 0.4em;
+  font-size: 1.5em;
+  position: absolute;
+  top: 3em;
+  right: 10%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5em;
+  padding: 2em 1.5em;
+  letter-spacing: 0.1em;
+  position: relative;
+  opacity: 0;
+  animation: load2 0.5s linear 1s 1 forwards;
+}
+
+@keyframes load2 {
+    0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.about > h1, .projects > h1, .contact > h1 {
+  transform: rotate(90deg);
+  transform-origin: left;
+  font-size: 1.5em;
+  text-align: left;
+  padding-bottom: 0.5em;
+  position: absolute;
+  border-bottom: 0.1em solid #0af;
+}
+
+.about > h1 {
+  width: 8em;
+  top: 2em;
+  right: -6.5em;
+}
+
+.www {
+  margin-bottom: 4em;
+  width: 90%;
+}
+
+.www:nth-child(2) {
+  text-align: right;
+}
+
+.www:nth-child(2) h2 {
+  float: right;
+}
+
+.www h1 {
+  font-size: 6vw;
+}
+
+.www h2 {
+  width: 0;
+  height: 2.6vw;
+  font-size: 2.25vw;
+  overflow-x: hidden;
+}
+
+.www:first-child h2 {
+  animation: entry 0.5s linear 1.5s 1 forwards;
+}
+
+.www:nth-child(2) h2 {
+  animation: entry 0.5s linear 2s 1 forwards;
+}
+
+.www:nth-child(3) h2 {
+  animation: entry 0.5s linear 2.5s 1 forwards;
+}
+
+@keyframes entry {
+    0% {width: 0;}
+  100% {width: 100%;}
+}
+
+.projects > h1 {
+  transform: rotate(-90deg);
+  text-align: right;
+  width: 13em;
+  top: 13.5em;
+}
+
+.projects-container {
+  position: relative;
+  float: right;
+  width: 95%;
+  height: 40vw;
+  /*background-color: #0af;*/
+}
+
+.project {
+  position: absolute;
+}
+
+#cointelligent {
+  width: 33vw;
+  height: 17vw;
+}
+
+#memes {
+  width: 33vw;
+  height: 16.5vw;
+  top: 20vw;
+}
+
+#nyc {
+  width: 40vw;
+  height: 26.5vw;
+  right: 0;
+}
+
+#tbc {
+  width: 40vw;
+  height: 7.5vw;
+  background-color: #0af;
+  right: 0;
+  top: 29vw;
+}
+
+.project .caseCover {
+  width: 100%;
+  height: 100%;
+}
+
+.project .caseCover img {
+  width: inherit;
+  height: inherit;
+  z-index: 100;
+  object-fit: fill;
+}
+
+.project .caseIntro {
+  position: absolute;
+  z-index: 50;
+  width: 80%;
+  height: 100%;
+  padding: 0 10%;
+  background-color: #151b21;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.project .caseIntro:hover {
+  opacity: 1;
+}
+
+.caseIntro h2 {
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.caseIntro p {
+  font-size: 1.25vw;
+}
+
+.caseIntro .bar {
+  margin: auto;
+  margin-top: 0.5vw;
+  width: 8vw;
+}
+
+#cointelligent h2 {
+  margin-top: 3.5vw;
+}
+
+#memes h2 {
+  margin-top: 2vw;
+}
+
+#nyc h2 {
+  margin-top: 8vw;
+}
+
+.contact > h1 {
+  width: 4.5em;
+  top: 0;
+  right: -3em;
+}
+
+.emailMe {
+  max-width: 25em;
+}
+
+.emailMe h2 {
+  font-size: 2.5em;
+}
+
+.emailMe p {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.emailMe span {
+  display: inline-block;
+  width: 5em;
+}
+
+.dots {
+  display: inline;
+  margin-bottom: -0.2em;
+  color: #0af;
+  width: 0;
+  overflow: hidden;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    0% {width: 0;}
+  100% {width: 1em;}
+}
+
+.socialMedias {
+  position: absolute;
+  right: 1.25em;
+  top: 9em;
+}
+
+.socialMedias i {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 690px) {
+  .content > h1 {
+    display: none;
+  }
+
+  .content {
+    margin-bottom: 3em;
+  }
+
+  .brand {
+    font-size: 1.2em;
+  }
+
+  .www {
+    margin-bottom: 3em;
+    width: 80%;
+  }
+
+  .www:nth-child(2) {
+    text-align: left;
+  }
+
+  .www:nth-child(2) h2 {
+    float: none;
+  }
+
+  .www h1 {
+    font-size: 8vw;
+  }
+
+  .www h2 {
+    height: 6vw;
+    font-size: 2.5vw;
+  }
+
+  .projects {
+    padding-top: 0;
+  }
+
+  .projects-container {
+    width: 100%;
+    height: 100vw;
+  }
+
+  #tbc {
+    display: none;
+  }
+
+  #cointelligent, #memes, #nyc  {
+    width: 65%;
+    height: auto;
+    right: 0;
+  }
+
+  #memes {
+    top: 30vw;
+  }
+
+  #nyc {
+    top: 60vw;
+  }
+
+  .project .caseIntro {
+    left: -55%;
+    width: 40%;
+    height: 96.5%;
+    padding: 0 5%;
+    opacity: 1;
+  }
+
+  .caseIntro h2 {
+    font-size: 2vw;
+  }
+
+  #cointelligent h2, #memes h2, #nyc h2 {
+    margin-top: 5vw;
+  }
+
+  .contact {
+    margin-bottom: 0;
+  }
+
+  .emailMe h2 {
+    font-size: 1.75em;
+  }
+
+  .emailMe p {
+    width: 80%;
+    font-size: 1.125em;
+    line-height: 1.25em;
+  }
+
+  .socialMedias {
+    top: 6em;
+  }
+}
