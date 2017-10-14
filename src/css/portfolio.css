@@ -295,7 +295,6 @@ h1 span {
 
   .www {
     margin-bottom: 3em;
-    width: 80%;
   }
 
   .www:nth-child(2) {
@@ -307,55 +306,75 @@ h1 span {
   }
 
   .www h1 {
-    font-size: 8vw;
+    font-size: 15vw;
   }
 
   .www h2 {
-    height: 6vw;
-    font-size: 2.5vw;
+    height: 15vw;
+    font-size: 4vw;
   }
 
   .projects {
     padding-top: 0;
   }
 
-  .projects-container {
-    width: 100%;
-    height: 100vw;
-  }
-
   #tbc {
     display: none;
   }
 
-  #cointelligent, #memes, #nyc  {
-    width: 65%;
+  .projects-container {
+    float: none;
+    width: 100%;
     height: auto;
-    right: 0;
   }
 
-  #memes {
-    top: 30vw;
+  .project {
+    position: static;
   }
 
-  #nyc {
-    top: 60vw;
+  #cointelligent, #memes, #nyc {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
   }
 
   .project .caseIntro {
-    left: -55%;
-    width: 40%;
-    height: 96.5%;
-    padding: 0 5%;
+    position: static;
+    padding: 5% 10%;
     opacity: 1;
   }
 
+  .project .caseIntro, .project .caseCover img {
+    box-shadow: 0 2px 18px 0 rgba(15, 155, 245, 0.2), 0 10px 40px 0 rgba(15, 155, 245, 0.2);
+  }
+
+  .project .caseIntro {
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+  }
+
+  .project .caseCover img {
+    border-bottom-right-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+  }
+
   .caseIntro h2 {
-    font-size: 2vw;
+    font-size: 7.25vw;
+  }
+
+  .caseIntro p {
+    font-size: 4.5vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  .caseIntro .bar {
+    margin: 2vw auto;
+    width: 20vw;
   }
 
   #cointelligent h2, #memes h2, #nyc h2 {
-    margin-top: 5vw;
+    margin-top: 0;
   }
 
   .contact {

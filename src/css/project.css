@@ -101,11 +101,27 @@
 
   .projectIntro .introName {
     margin-bottom: 5vw;
+    font-size: 4.5vw;
   }
 
   .projectIntro .introContent {
     float: left;
-    width: 100%;
+    max-width: 100%;
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+
+  .introContent a {
+    display: block;
+    margin-bottom: 3vw;
+    font-size: 5.5vw;
+    border-bottom: none;
+    border-left: 2vw solid #0af;
+    padding-left: 2vw;
+  }
+
+  .introContent .role {
+    font-size: 5.5vw;
   }
 
   .screenShot {
@@ -123,16 +139,19 @@
   }
 
   .projectPointer, .projectPointer:first-child {
-    float: none;
     display: block;
-    margin: auto;
+    width: 85%;
+    height: 10vw;
+    margin-right: -10vw;
   }
 
   .projectPointer:first-child {
-    margin-top: 8vw;
+    margin: 8vw 0 3vw -10vw;
   }
 
   .projectPointer p {
-    line-height: 8vw;
+    font-size: 5vw;
+    padding-top: 3.5vw;
+    margin: 0;
   }
 }
