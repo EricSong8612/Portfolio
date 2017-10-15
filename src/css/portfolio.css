@@ -111,9 +111,12 @@ h1 span {
 
 .www h2 {
   width: 0;
-  height: 2.9vw;
+  height: 3vw;
   font-size: 2.25vw;
+  line-height: 3vw;
+  overflow-x: hidden;
   overflow-y: hidden;
+  /*background-color: #0af;*/
 }
 
 .www:first-child h2 {
