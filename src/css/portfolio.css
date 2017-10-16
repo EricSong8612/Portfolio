@@ -116,7 +116,7 @@ h1 span {
   line-height: 3vw;
   overflow-x: hidden;
   overflow-y: hidden;
-  /*background-color: #0af;*/
+  /*background-color: #000db8;*/
 }
 
 .www:first-child h2 {
@@ -284,6 +284,11 @@ h1 span {
 }
 
 @media only screen and (max-width: 690px) {
+  #navigation ul li {
+    font-size: 6vw;
+    width: 50vw;
+  }
+
   .content > h1 {
     display: none;
   }
@@ -313,8 +318,10 @@ h1 span {
   }
 
   .www h2 {
-    height: 9vw;
+    height: 8.9vw;
+    line-height: 4.5vw;
     font-size: 4vw;
+    letter-spacing: 0.05em;
   }
 
   .projects {
