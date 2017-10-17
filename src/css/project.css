@@ -76,7 +76,6 @@
   width: 25%;
   height: 7vw;
   background-color: #0af;
-  display: inline-block;
 }
 
 .projectPointer:first-child {
@@ -138,6 +137,10 @@
     margin: 0;
   }
 
+  .projectNavi {
+    margin-top: 8vw;
+  }
+
   .projectPointer, .projectPointer:first-child {
     display: block;
     width: 85%;
@@ -146,7 +149,7 @@
   }
 
   .projectPointer:first-child {
-    margin: 8vw 0 3vw -10vw;
+    margin: 0 0 3vw -10vw;
   }
 
   .projectPointer p {

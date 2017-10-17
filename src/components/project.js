@@ -34,9 +34,9 @@ class Project extends Component {
 
   show(resource) {
     if (resource === '') {
-      return 'hidden'
+      return 'none'
     } else {
-      return 'visible'
+      return 'inline-block'
     }
   }
 
@@ -67,13 +67,13 @@ class Project extends Component {
         {this.renderScreenShots()}
 
         <div className='projectNavi'>
-          <div className='projectPointer'>
-            <Link to={`/projects/${this.state.activeProject.previous}`} style={{visibility:`${this.show(this.state.activeProject.previous)}`}}>
+          <div className='projectPointer' style={{display:`${this.show(this.state.activeProject.previous)}`}}>
+            <Link to={`/projects/${this.state.activeProject.previous}`}>
               <p>Previous</p>
             </Link>
           </div>
-          <div className='projectPointer'>
-            <Link to={`/projects/${this.state.activeProject.next}`} style={{visibility:`${this.show(this.state.activeProject.next)}`}}>
+          <div className='projectPointer' style={{display:`${this.show(this.state.activeProject.next)}`}}>
+            <Link to={`/projects/${this.state.activeProject.next}`}>
               <p>Next</p>
             </Link>
           </div>
