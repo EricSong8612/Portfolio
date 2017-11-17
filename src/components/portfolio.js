@@ -1,31 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
+import Menu from './menu';
 import '../css/portfolio.css';
 
 class Portfolio extends Component {
   state = {}
 
-  openNavi () {
-    this.setState({animation:'open 0.8s linear 1 forwards'})
-  }
-
-  closeNavi () {
-    this.setState({animation:'close 0.8s linear 1 forwards'})
-  }
-
   render() {
     return(
       <div>
-        <div id='navigation' style={{animation:`${this.state.animation}`}}>
-          <i id='closeIcon' className='fa fa-close' onClick={this.closeNavi.bind(this)}></i>
-          <ul>
-            <li onClick={this.closeNavi.bind(this)}><a href='#about'>W.W.W. About JS</a></li>
-            <li onClick={this.closeNavi.bind(this)}><a href='#projects'>Featured Projects</a></li>
-            <li onClick={this.closeNavi.bind(this)}><a href='#contact'>Contact</a></li>
-          </ul>
-        </div>
-
-        <span className='brand' title="Jian Song's Portfolio" onClick={this.openNavi.bind(this)}>JS</span>
+        <Menu />
 
         <div className='content about' id='about'>
           <div className='www'>
