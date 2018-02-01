@@ -57,8 +57,8 @@ class Project extends Component {
           <div className='introContent'>
             <p><span>{this.state.activeProject.name} </span>{this.state.activeProject.introPart1}</p>
             <p>{this.state.activeProject.introPart2}</p>
-            <a href={this.state.activeProject.link.url}>{this.state.activeProject.link.name}</a>
-            <a href={this.state.activeProject.other.url}>{this.state.activeProject.other.name}</a>
+            <a href={this.state.activeProject.link.url} target='_blank'>{this.state.activeProject.link.name}</a>
+            <a href={this.state.activeProject.other.url} target='_blank'>{this.state.activeProject.other.name}</a>
             <p className='role'>My role: <span>{this.state.activeProject.role}</span></p>
           </div>
           <div className='clear'></div>

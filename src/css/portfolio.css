@@ -85,23 +85,30 @@
   position: relative;
   float: right;
   width: 95%;
-  height: 40vw;
-  /*background-color: #0af;*/
+  height: 57vw;
+  /* background-color: #0af; */
 }
 
 .project {
   position: absolute;
 }
 
-#cointelligent {
+#flaunt {
   width: 33vw;
-  height: 17vw;
+  height: 33vw;
+}
+
+#cointelligent {
+  width: 38vw;
+  height: 21vw;
+  top: 36vw;
 }
 
 #memes {
-  width: 33vw;
-  height: 16.5vw;
-  top: 20vw;
+  width: 35vw;
+  height: 17vw;
+  top: 29.5vw;
+  right: 0;
 }
 
 #nyc {
@@ -110,12 +117,12 @@
   right: 0;
 }
 
-#tbc {
-  width: 40vw;
+#mtc {
+  width: 35vw;
   height: 7.5vw;
   background-color: #0af;
   right: 0;
-  top: 29vw;
+  bottom: 0;
 }
 
 .project .caseCover {
@@ -160,8 +167,12 @@
   width: 8vw;
 }
 
+#flaunt h2 {
+  margin-top: 11vw;
+}
+
 #cointelligent h2 {
-  margin-top: 3.5vw;
+  margin-top: 6vw;
 }
 
 #memes h2 {
@@ -170,6 +181,13 @@
 
 #nyc h2 {
   margin-top: 8vw;
+}
+
+#mtc h1 {
+  color: #0af;
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 2vw;
 }
 
 .contact > h1 {
@@ -266,7 +284,7 @@
     padding-top: 0;
   }
 
-  #tbc {
+  #mtc {
     display: none;
   }
 

@@ -30,6 +30,19 @@ class Portfolio extends Component {
         <div className='content projects' id='projects'>
           <h1>Featured Projects</h1>
           <div className='projects-container'>
+            <div className='project' id='flaunt'>
+              <Link to='/projects/flaunt'>
+                <div className='caseIntro'>
+                  <h2>Flaunt</h2>
+                  <div className='bar'></div>
+                  <p>Create beautiful customized product mockups with just a few clicks</p>
+                </div>
+                <div className='caseCover'>
+                  <img src='https://s3.amazonaws.com/portfolio-materials/flaunt.png' alt='flaunt'></img>
+                  {/* <img src='https://s3.amazonaws.com/flauntbucket/Screenshot-2018-1-12+http+flauntapp+herokuapp+com(1).png' alt='cointelligent'></img> */}
+                </div>
+              </Link>
+            </div>
             <div className='project' id='cointelligent'>
               <Link to='/projects/cointelligent'>
                 <div className='caseIntro'>
@@ -66,7 +79,11 @@ class Portfolio extends Component {
                 </div>
               </Link>
             </div>
-            <div className='project' id='tbc'></div>
+            <div className='project' id='mtc'>
+              <div className='caseIntro'>
+                <h1>More to come ...</h1>
+              </div>
+            </div>
           </div>
           <div className='clear'></div>
         </div>

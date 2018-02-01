@@ -1,4 +1,18 @@
 {
+  "flaunt": {
+    "name": "Flaunt",
+    "coverImg": "https://s3.amazonaws.com/portfolio-materials/flauntSH2.png",
+    "introPart1": "is a web application to easily create beautiful app marketing materials",
+    "introPart2": "Everything you need to create amazing App Store Screenshots, Instagram Posts, and more, you can find them here. Flaunt provides you with dozens of HD device mockups, and templates for every situation. You can show off your product everywhere. With a fully functional editor, dozens of fonts, colors, background colors, images, and editing tools at your disposal. Try out our beta today, and create beautiful customized product mockups with just a few clicks.",
+    "link": {"name":"View Flaunt", "url": "https://useflaunt.com/"},
+    "other": {},
+    "role": "Web Development",
+    "screenShots": [
+      "https://s3.amazonaws.com/portfolio-materials/flauntSH1.png"
+    ],
+    "previous": "",
+    "next": "cointelligent"
+  },
   "cointelligent": {
     "name": "Cointelligent",
     "coverImg": "https://s3.amazonaws.com/portfolio-materials/cointelligent.png",
@@ -13,7 +27,7 @@
       "https://s3.amazonaws.com/portfolio-materials/cointelligentSH3.png",
       "https://s3.amazonaws.com/portfolio-materials/cointelligentSH4.png"
     ],
-    "previous": "",
+    "previous": "flaunt",
     "next": "memes"
   },
   "memes": {
