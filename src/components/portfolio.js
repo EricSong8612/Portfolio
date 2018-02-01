@@ -5,8 +5,6 @@ import Menu from './menu';
 import '../css/portfolio.css';
 
 class Portfolio extends Component {
-  state = {}
-
   render() {
     return(
       <div>
