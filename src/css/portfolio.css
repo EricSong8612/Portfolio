@@ -250,7 +250,7 @@
   }
 
   .content {
-    margin-bottom: 3em;
+    margin-bottom: 0;
   }
 
   .brand {
@@ -298,7 +298,7 @@
     position: static;
   }
 
-  #cointelligent, #memes, #nyc {
+  #flaunt, #cointelligent, #memes, #nyc {
     width: 100%;
     height: auto;
     margin-bottom: 10%;
