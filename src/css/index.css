@@ -129,6 +129,8 @@ h1 span {
   color: #0af;
   border: 0.125em solid #0af;
   border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   padding: 0.45em 0.4em;
   font-size: 1.5em;
   position: absolute;

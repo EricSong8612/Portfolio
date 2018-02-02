@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import "./declares.scss";
 
 html {
   background-color: $themeColor;
@@ -124,7 +124,7 @@ h1 span {
 .brand {
   color: $themeColor;
   border: 0.125em solid $themeColor;
-  border-radius: 50%;
+  @include rounded-corners-all(50%);
   padding: 0.45em 0.4em;
   font-size: 1.5em;
   position: absolute;
