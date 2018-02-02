@@ -1,6 +1,5 @@
 html {
-  background-color: #0af;
-}
+  background-color: #0af; }
 
 body {
   margin: 0;
@@ -9,61 +8,51 @@ body {
   font-size: 100%;
   color: #fff;
   background-color: #0af;
-  animation: load1 0.5s linear 0.5s 1 forwards;
-}
+  animation: load1 0.5s linear 0.5s 1 forwards; }
 
 @keyframes load1 {
-    0% {background-color: #0af;}
-  100% {background-color: #000;}
-}
+  0% {
+    background-color: #0af; }
+  100% {
+    background-color: #000; } }
 
 a {
   text-decoration: none;
-  color: #fff;
-}
+  color: #fff; }
 
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
+  margin: 0; }
 
 h1 {
-  font-family: 'Montserrat';
-}
+  font-family: 'Montserrat'; }
 
 p {
-  font-family: 'Nunito';
-}
+  font-family: 'Nunito'; }
 
 span {
-  font-family: 'Rubik';
-}
+  font-family: 'Rubik'; }
 
 .clear {
-  clear: both;
-}
+  clear: both; }
 
 .bar {
   background-color: #0af;
   width: 8em;
   height: 0.25em;
-  margin-top: 0.25em;
-}
+  margin-top: 0.25em; }
 
 li .bar {
   width: 2.5em;
   margin: auto;
-  margin-top: 0.2em;
-}
+  margin-top: 0.2em; }
 
 li a {
-  font-family: 'Nunito';
-}
+  font-family: 'Nunito'; }
 
 #navigation {
   position: fixed;
@@ -73,51 +62,68 @@ li a {
   width: 0;
   height: 0;
   border-bottom-left-radius: 50%;
-  background-color: #0af;
-}
+  background-color: #0af; }
 
 #navigation ul {
   margin-top: 60vh;
   text-align: center;
-  opacity: 0;
-}
+  opacity: 0; }
 
 @keyframes textIn {
-    0% {margin-top: 60vh; opacity: 0;}
-  100% {margin-top: 30vh; opacity: 1;}
-}
+  0% {
+    margin-top: 60vh;
+    opacity: 0; }
+  100% {
+    margin-top: 30vh;
+    opacity: 1; } }
 
 @keyframes textOut {
-  100% {margin-top: 60vh; opacity: 0;}
-    0% {margin-top: 30vh; opacity: 1;}
-}
+  100% {
+    margin-top: 60vh;
+    opacity: 0; }
+  0% {
+    margin-top: 30vh;
+    opacity: 1; } }
 
 #navigation ul li {
   margin: auto;
   margin-bottom: 1em;
   font-size: 3vw;
-  width: 25vw;
-}
+  width: 25vw; }
 
 @keyframes open {
-    0% {width: 0; height: 0; border-bottom-left-radius: 100%;}
-   60% {width: 100vw; height: 100vw; border-bottom-left-radius: 100%;}
-  100% {width: 100vw; height: 100vh; border-bottom-left-radius: 0;}
-}
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-left-radius: 100%; }
+  60% {
+    width: 100vw;
+    height: 100vw;
+    border-bottom-left-radius: 100%; }
+  100% {
+    width: 100vw;
+    height: 100vh;
+    border-bottom-left-radius: 0; } }
 
 @keyframes close {
-  100% {width: 0; height: 0; border-bottom-left-radius: 100%;}
-   40% {width: 100vw; height: 100vw; border-bottom-left-radius: 100%;}
-    0% {width: 100vw; height: 100vh; border-bottom-left-radius: 0;}
-}
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-left-radius: 100%; }
+  40% {
+    width: 100vw;
+    height: 100vw;
+    border-bottom-left-radius: 100%; }
+  0% {
+    width: 100vw;
+    height: 100vh;
+    border-bottom-left-radius: 0; } }
 
 span a {
-  color: #0af;
-}
+  color: #0af; }
 
 h1 span {
-  color: #0af;
-}
+  color: #0af; }
 
 .brand {
   color: #0af;
@@ -129,15 +135,24 @@ h1 span {
   top: 2em;
   right: 10%;
   z-index: 1100;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 @keyframes toBlack {
-    0% {color: #0af; border-color: #0af; position: absolute;}
-  100% {color: #fff; border-color: #fff; position: fixed;}
-}
+  0% {
+    color: #0af;
+    border-color: #0af;
+    position: absolute; }
+  100% {
+    color: #fff;
+    border-color: #fff;
+    position: fixed; } }
 
 @keyframes toBlue {
-  100% {color: #0af; border-color: #0af; position: absolute;}
-    0% {color: #fff; border-color: #fff; position: fixed;}
-}
+  100% {
+    color: #0af;
+    border-color: #0af;
+    position: absolute; }
+  0% {
+    color: #fff;
+    border-color: #fff;
+    position: fixed; } }
