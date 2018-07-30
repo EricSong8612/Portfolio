@@ -19,7 +19,7 @@
     "introPart1": "is the most beautiful way to keep track of the crypto world",
     "introPart2": "Wanna know what the market is like all the time? Wanna know what cryptocurrency investors are talking about? Wanna make a confident decision about your investment? Join Cointelligent(beta) today and get access to real-time cryptocurrency data, analysis, and news.",
     "link": {"name":"View Cointelligent", "url": "http://www.cointelligent.io/"},
-    "other": {"name":"Cointelligent Market(beta)", "url": "http://markets.cointelligent.io/"},
+    "other": {},
     "role": "Web Development",
     "screenShots": [
       "https://s3.amazonaws.com/portfolio-materials/cointelligentSH1.png",

@@ -7,18 +7,20 @@ import '../css/project.css';
 class Project extends Component {
   state = { projects }
 
-  componentWillMount() {
+  componentDidMount() {
     window.scrollTo(0,0);
     let { id } = this.props.match.params;
     let activeProject = this.state.projects[id];
     this.setState({ activeProject })
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(preProps) {
     window.scrollTo(0,0);
-    let { id } = nextProps.match.params;
-    let activeProject = this.state.projects[id];
-    this.setState({ activeProject })
+    if (preProps.match.params !== this.props.match.params) {
+      let { id } = this.props.match.params;
+      let activeProject = this.state.projects[id];
+      this.setState({ activeProject })
+    }
   }
 
   renderScreenShots() {
@@ -41,6 +43,8 @@ class Project extends Component {
   }
 
   render() {
+    if (!this.state.activeProject) return null;
+
     return(
       <div id='projectMain'>
         <Link to='/'><span className='brand' title="Jian Song's Portfolio">JS</span></Link>
@@ -57,8 +61,9 @@ class Project extends Component {
           <div className='introContent'>
             <p><span>{this.state.activeProject.name} </span>{this.state.activeProject.introPart1}</p>
             <p>{this.state.activeProject.introPart2}</p>
-            <a href={this.state.activeProject.link.url} target='_blank'>{this.state.activeProject.link.name}</a>
-            <a href={this.state.activeProject.other.url} target='_blank'>{this.state.activeProject.other.name}</a>
+            {/* <a href={this.state.activeProject.link.url} target='_blank'>{this.state.activeProject.link.name}</a>
+            <a href={this.state.activeProject.other.url} target='_blank'>{this.state.activeProject.other.name}</a> */}
+            <div className="bar" />
             <p className='role'>My role: <span>{this.state.activeProject.role}</span></p>
           </div>
           <div className='clear'></div>
