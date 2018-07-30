@@ -1,157 +1,125 @@
 #projectMain {
   width: 80%;
   margin: 4em auto;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
-.coverImg,
-.projectIntro,
-.screenShot {
-  margin-bottom: 2em;
-}
+.coverImg, .projectIntro, .screenShot {
+  margin-bottom: 2em; }
 
 .coverImg img {
   width: 80vw;
   height: 38vw;
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 .projectIntro {
-  margin: 8vw auto;
-}
+  margin: 8vw auto; }
 
 .projectIntro .introName {
-  font-size: 2.25vw;
-}
+  font-size: 2.25vw; }
 
 .projectIntro .introContent {
   float: right;
   max-width: 60%;
   font-size: 1.625vw;
   line-height: 2.25vw;
-  letter-spacing: 0.1vw;
-}
+  letter-spacing: 0.1vw; }
 
 .introContent .bar {
-  height: 0.05em;
-}
+  height: 0.05em; }
 
 .introContent p:nth-child(2) {
-  color: #ddd;
-}
+  color: #ddd; }
 
 .introContent a {
   border-bottom: 1px solid #0af;
   color: #777;
-  font-family: "Nunito";
+  font-family: 'Nunito';
   font-size: 1.875vw;
-  margin-right: 3vw;
-}
+  margin-right: 3vw; }
 
 .introContent a:hover {
   border-bottom: 1px solid #777;
-  color: #0af;
-}
+  color: #0af; }
 
 .introContent .role {
-  font-size: 2vw;
-}
+  font-size: 2vw; }
 
 .role span {
-  font-family: "Dancing Script";
-  margin-left: 1vw;
-}
+  font-family: 'Dancing Script';
+  margin-left: 1vw; }
 
 .screenShot {
   width: 80vw;
   height: 36.4vw;
   background-color: #161616;
-  padding-top: 6vw;
-}
+  padding-top: 6vw; }
 
 .screenShot img {
   display: block;
   width: 64vw;
   height: 30.4vw;
   object-fit: cover;
-  margin: auto;
-}
+  margin: auto; }
 
 .projectPointer {
   float: right;
   width: 25%;
   height: 7vw;
-  background-color: #0af;
-}
+  background-color: #0af; }
 
 .projectPointer:first-child {
-  float: left;
-}
+  float: left; }
 
 .projectPointer p {
   width: 100%;
-  height: 100%;
   text-align: center;
   cursor: pointer;
   font-size: 2vw;
-  line-height: 3vw;
-}
+  line-height: 7vw;
+  margin: 0; }
 
 @media only screen and (max-width: 690px) {
   .coverImg img {
     width: 100vw;
     height: 48vw;
-    margin-left: -10vw;
-  }
+    margin-left: -10vw; }
   .projectIntro .introName {
     margin-bottom: 5vw;
-    font-size: 4.5vw;
-  }
+    font-size: 4.5vw; }
   .projectIntro .introContent {
     float: left;
     max-width: 100%;
     font-size: 5vw;
-    line-height: 6vw;
-  }
+    line-height: 6vw; }
   .introContent a {
     display: block;
     margin-bottom: 3vw;
     font-size: 5.5vw;
     border-bottom: none;
     border-left: 2vw solid #0af;
-    padding-left: 2vw;
-  }
+    padding-left: 2vw; }
   .introContent .role {
-    font-size: 5.5vw;
-  }
+    font-size: 5.5vw; }
   .screenShot {
     width: 100vw;
     height: 48vw;
     padding: 0;
     margin: 0;
-    margin-left: -10vw;
-  }
+    margin-left: -10vw; }
   .screenShot img {
     width: 100vw;
     height: 48vw;
-    margin: 0;
-  }
+    margin: 0; }
   .projectNavi {
-    margin-top: 8vw;
-  }
-  .projectPointer,
-  .projectPointer:first-child {
+    margin-top: 8vw; }
+  .projectPointer, .projectPointer:first-child {
     display: block;
     width: 85%;
     height: 10vw;
-    margin-right: -10vw;
-  }
+    margin-right: -10vw; }
   .projectPointer:first-child {
-    margin: 0 0 3vw -10vw;
-  }
+    margin: 0 0 3vw -10vw; }
   .projectPointer p {
     font-size: 5vw;
     padding-top: 3.5vw;
-    margin: 0;
-  }
-}
+    margin: 0; } }
