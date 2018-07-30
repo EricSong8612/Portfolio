@@ -96,7 +96,7 @@ class Portfolio extends Component {
             <p>If you have any advice or proposal,
                or just wanna say hi, you can always reach me through&nbsp;
                <span>
-                 <a href='mailto:js8612@nyu.edu'>Email </a>
+                 <a href='mailto:jiansong.pro@gmail.com'>Email </a>
                  <i className='fa fa-hand-o-left' aria-hidden='true'></i>
                </span>
             </p>
