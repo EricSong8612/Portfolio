@@ -4,8 +4,6 @@
     "coverImg": "https://s3.amazonaws.com/portfolio-materials/flauntSH2.png",
     "introPart1": "is a web application to easily create beautiful app marketing materials",
     "introPart2": "Everything you need to create amazing App Store Screenshots, Instagram Posts, and more, you can find them here. Flaunt provides you with dozens of HD device mockups, and templates for every situation. You can show off your product everywhere. With a fully functional editor, dozens of fonts, colors, background colors, images, and editing tools at your disposal. Try out our beta today, and create beautiful customized product mockups with just a few clicks.",
-    "link": {"name":"View Flaunt", "url": "https://useflaunt.com/"},
-    "other": {},
     "role": "Web Development",
     "screenShots": [
       "https://s3.amazonaws.com/portfolio-materials/flauntSH1.png"
@@ -18,8 +16,6 @@
     "coverImg": "https://s3.amazonaws.com/portfolio-materials/cointelligent.png",
     "introPart1": "is the most beautiful way to keep track of the crypto world",
     "introPart2": "Wanna know what the market is like all the time? Wanna know what cryptocurrency investors are talking about? Wanna make a confident decision about your investment? Join Cointelligent(beta) today and get access to real-time cryptocurrency data, analysis, and news.",
-    "link": {"name":"View Cointelligent", "url": "http://www.cointelligent.io/"},
-    "other": {},
     "role": "Web Development",
     "screenShots": [
       "https://s3.amazonaws.com/portfolio-materials/cointelligentSH1.png",
@@ -35,8 +31,7 @@
     "coverImg": "https://s3.amazonaws.com/portfolio-materials/memes.png",
     "introPart1": "is a party game you play in iMessage where you compete with friends to create the greatest memes",
     "introPart2": "The game is played by rounds with one player (the judge) choosing a photo to meme and everyone else submitting their wittiest captions for the photo. The judge then picks the winner and the next round starts with a new judge. Check out the landing page for more information and don't forget to upvote it on Product Hunt if you like it. Have fun!",
-    "link": {"name":"View the Site", "url": "http://www.thememegod.com/"},
-    "other": {"name":"Upvote it on Product Hunt", "url": "https://www.producthunt.com/posts/memes-against-friends"},
+    "link": {"name":"Upvote it on Product Hunt", "url": "https://www.producthunt.com/posts/memes-against-friends"},
     "role": "Landing Page Development",
     "screenShots": [
       "https://s3.amazonaws.com/portfolio-materials/memesSH1.png",
@@ -51,7 +46,6 @@
     "introPart1": "is an online guide for Chinese students who are new in town",
     "introPart2": "As a Chinese student myself, I found that it's not easy to find your position in a new city and a new culture. Even before I got here, I started to worried about how I can start my life here smoothly. So by combining our personal experience and some other online information, my friends and I started this project in order to help more Chinese student who may have the same trouble. This guide covers from departure preparation to local house rent. If needed, we also have former students and rental agency to help the new students adapt to NYC better and faster. Hope you all have a wonderful life here in NYC!",
     "link": {"name":"View the Site", "url": "https://welcome-to-nyc.netlify.com/"},
-    "other": {},
     "role": "Design & Development",
     "screenShots": [
       "https://s3.amazonaws.com/portfolio-materials/nycSH1.png",
